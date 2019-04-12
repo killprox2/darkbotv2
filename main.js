@@ -140,7 +140,7 @@ const init = async () => {
     client.levelCache[thisLevel.name] = thisLevel.level;
   }
 
-  client.login("NTY1NTEwOTI5ODgyODA4MzIz.XK6lPw.ROpJCdcM7mwCKtKONOlp6iT3coU");
+  client.login(process.env.TOKEN);
 };
 
 init();
