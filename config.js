@@ -87,8 +87,8 @@ const config = {
       }
     },
     {
-      level: 2,
-      name: "Team Crew",
+      level: 3,
+      name: "Master Power Puissance OverCheat",
       check: message => {
         try {
           const mod2Role = message.guild.roles.find(
