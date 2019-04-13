@@ -4,7 +4,7 @@ const readdir = promisify(require("fs").readdir);
 const Enmap = require("enmap");
 const klaw = require("klaw");
 const path = require("path");
-const mysql = require('mysql');
+
 require("dotenv").config();
 
 class Darkbot extends Client {
@@ -140,7 +140,7 @@ const init = async () => {
     client.levelCache[thisLevel.name] = thisLevel.level;
   }
 
-  client.login(process.env.TOKEN);
+  client.login("NTY1NTEwOTI5ODgyODA4MzIz.XLEB3A.94a4oO3bocfrdSt47ck10yMls30");
 };
 
 init();
