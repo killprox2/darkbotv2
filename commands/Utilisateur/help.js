@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 const Command = require("../../modules/Command.js");
-
+const Settings = require("../../db/settings.js");
 class Help extends Command {
   constructor(client) {
     super(client, {

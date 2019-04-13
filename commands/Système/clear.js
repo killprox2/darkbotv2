@@ -8,7 +8,7 @@ class Clear extends Command {
       usage: "clear",
       category: "Système",
       aliases: ["cl"],
-      permLevel: "Team Crew"
+      permLevel: "Master Power Puissance OverCheat"
     });
   }
 
